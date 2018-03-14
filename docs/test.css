@@ -39,11 +39,12 @@
 
 /*webkit-sassui-icon-line-arrow End*/
 .test-webkit-sassui-icon-line-arrow {
+  width: 320px;
+  margin: 30px auto;
   border: 1px dashed seagreen;
   background: #fefefe;
   border-radius: 10px;
   padding: 10px;
-  margin-bottom: 40px;
 }
 
 .test-webkit-sassui-icon-line-arrow p {
