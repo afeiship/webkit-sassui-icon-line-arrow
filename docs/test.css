@@ -1,0 +1,72 @@
+/*webkit-sassui-icon-line-arrow Start*/
+.webkit-sassui-icon-line-arrow {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.webkit-sassui-icon-line-arrow:after {
+  content: '\200B';
+  display: block;
+  vertical-align: middle;
+  width: 0.5em;
+  height: 0.5em;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.webkit-sassui-icon-line-arrow[data-direction=top], .webkit-sassui-icon-line-arrow[data-direction=bottom] {
+  height: 0.301em;
+}
+
+.webkit-sassui-icon-line-arrow[data-direction=left], .webkit-sassui-icon-line-arrow[data-direction=right] {
+  width: 0.301em;
+}
+
+.webkit-sassui-icon-line-arrow[data-direction=top]:after {
+  transform: rotate(-135deg);
+}
+
+.webkit-sassui-icon-line-arrow[data-direction=right]:after {
+  transform: translateX(-50%) rotate(-45deg);
+}
+
+.webkit-sassui-icon-line-arrow[data-direction=bottom]:after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.webkit-sassui-icon-line-arrow[data-direction=left]:after {
+  transform: rotate(135deg);
+}
+
+/*webkit-sassui-icon-line-arrow End*/
+.test-webkit-sassui-icon-line-arrow {
+  border: 1px dashed seagreen;
+  background: #fefefe;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.test-webkit-sassui-icon-line-arrow p {
+  text-align: center;
+}
+
+.test-webkit-sassui-icon-line-arrow p i {
+  border: 1px solid salmon;
+}
+
+.block-more {
+  line-height: 40px;
+  background: #eee;
+  text-align: center;
+}
+
+.block-more a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.block-more > * {
+  vertical-align: middle;
+  display: inline-block;
+}

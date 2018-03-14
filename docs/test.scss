@@ -1,0 +1,29 @@
+@import "../dist/webkit-sassui-icon-line-arrow.scss";
+.test-webkit-sassui-icon-line-arrow{
+  border: 1px dashed seagreen;
+  background: #fefefe;
+  border-radius: 10px;
+  padding:10px;
+  margin-bottom: 40px;
+
+  p{
+    text-align: center;
+    i{
+      border:1px solid salmon;
+    }
+  }
+}
+
+.block-more{
+  line-height: 40px;
+  background: #eee;
+  text-align: center;
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+  >*{
+    vertical-align: middle;
+    display: inline-block;
+  }
+}
