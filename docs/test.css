@@ -9,8 +9,20 @@
   display: block;
   width: 0.5em;
   height: 0.5em;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+}
+
+.webkit-sassui-icon-line-arrow[data-type=hairline]:after {
+  border-width: 0 0.05em 0.05em 0;
+}
+
+.webkit-sassui-icon-line-arrow[data-type=thin]:after {
+  border-width: 0 0.1em 0.1em 0;
+}
+
+.webkit-sassui-icon-line-arrow[data-type=heavy]:after {
+  border-width: 0 0.4em 0.4em 0;
 }
 
 .webkit-sassui-icon-line-arrow[data-direction=top], .webkit-sassui-icon-line-arrow[data-direction=bottom] {
