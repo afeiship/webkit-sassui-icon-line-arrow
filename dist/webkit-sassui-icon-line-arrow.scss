@@ -7,7 +7,6 @@
   &:after{
     content:'\200B';
     display: block;
-    vertical-align: middle;
     width: 0.5em;
     height: 0.5em;
     border-right: 1px solid;
@@ -25,25 +24,18 @@
   }
 
 
-  &[data-direction=top]{
-    &:after{
-      transform: rotate(-135deg);
-    }
+  &[data-direction=top]:after{
+    transform: rotate(-135deg);
   }
-  &[data-direction=right]{
-    &:after{
-      transform: translateX(-50%) rotate(-45deg);
-    }
+  &[data-direction=right]:after{
+    transform: translateX(-50%) rotate(-45deg);
   }
-  &[data-direction=bottom]{
-    &:after{
-      transform: translateY(-50%) rotate(45deg);
-    }
+  &[data-direction=bottom]:after{
+    transform: translateY(-50%) rotate(45deg);
   }
-  &[data-direction=left]{
-    &:after{
-      transform: rotate(135deg);
-    }
+  &[data-direction=left]:after{
+    transform: rotate(135deg);
   }
+
 }
 /*webkit-sassui-icon-line-arrow End*/

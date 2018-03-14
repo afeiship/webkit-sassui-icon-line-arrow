@@ -7,7 +7,6 @@
 .webkit-sassui-icon-line-arrow:after {
   content: '\200B';
   display: block;
-  vertical-align: middle;
   width: 0.5em;
   height: 0.5em;
   border-right: 1px solid;
